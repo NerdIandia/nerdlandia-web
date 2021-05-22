@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%-include ('parts/page-head', { title:'Meu Perfil | Nerdlândia' })%>
+    <link rel="stylesheet" href="/assets/styles/style-profile.css">
+</head>
+<body>
+    <main>
+        <section class="left">
+            <a href="/"><img src="/assets/images/images-profile/logo.png" class="logo" alt="logo"></a>
+            <img src="/assets/images/images-profile/map-mario.png" class="img-home" alt="img-home">
+            <div class="text">
+                <h1>O caminho para o entreterimento!</h1>
+            </div>
+            <div class="logout">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.25 26.25H6.25C5.58696 26.25 4.95107 25.9866 4.48223 25.5178C4.01339 25.0489 3.75 24.413 3.75 23.75V6.25C3.75 5.58696 4.01339 4.95107 4.48223 4.48223C4.95107 4.01339 5.58696 3.75 6.25 3.75H11.25" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 21.25L26.25 15L20 8.75" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M26.25 15H11.25" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <div class="a">
+                    <a href="/">Sair</a>
+                </div>
+            </div>
+        </section>
+        <section class="right">
+            <div class="header">
+                <h1>Meu Perfil</h1>
+            </div>
+            <div class="content">
+                <h1>Editar Perfil</h1>
+                <img src="<%= profile.avatar %>" alt="<%= profile.name %>">
+                <form id="form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" value="<%= profile.name %>"/>
+                      </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" value="<%= profile.email %>" />
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="text" id="password" name="password" value="<%= profile.password %>"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="cep">CEP</label>
+                    <input id="cep" type="text" name="cep" value="<%= profile.cep %>" />
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Salvar alterações</button>
+                  </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    background-color: #4D70D3;
+    width: 40vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left .logo {
+    height:5vh;
+    margin-bottom: 1vh;
+    pointer-events: none;
+}.left .logo::selection{
+    background:none;
+}
+
+.left .img-home {
+    height:65vh;
+    pointer-events: none;
+}.left .img-home::selection{
+    background:none;
+}
+
+.left .text {
+    margin-top: 5vh;
+    width: 22vw;
+}
+
+.left h1 {
+    color:#fff;
+    text-align: center;
+    font-weight: 600;
+    font-size:22px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right .up-text {
+    display: flex;
+    flex-direction: column;
+    padding-left:4vw;
+    padding-top: 5vh;
+}
+
+.right .up-text h1 {
+    color: #000000B2;
+    font-size: 21px;
+    line-height: 45px;
+}
+
+.right .up-text span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 5vh;
+}
+
+.right .up-text a{
+    text-decoration: none;
+}
+
+.right .up-text strong {
+    color:#4D70D3;
+    cursor: pointer;
+    transition:1s;
+}
+
+.right .up-text strong:hover{
+    color: #ECA521;
+}
+
+.right .up-text img {
+    height:4vh;
+}
+
+.content{
+    margin-top:3vh;
+}
+
+.form-group {
+    margin-top:1vh;
+    display: flex;
+    flex-direction: column;
+    padding-left:7vw;
+}
+
+.form-group label {
+    font-weight:500;
+    font-size: 11.8px;
+    margin-bottom:5px;
+}
+
+.form-group input {
+    background: #C4C4C44D;
+    width: 38vw;
+    height: 27px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 11px;
+    padding: 0 15px;
+    outline: none;
+    margin-bottom:10px;
+    transition: border-color 0.2s ease-in;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #4D70D3;
+}
+
+.form-group button {
+    margin-top: 1vh;
+    background-color: #4D70D3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0;
+    height: 32.5px;
+    color: #fff;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.form-group button:hover {
+    background: #ECA521;
+}
+
+

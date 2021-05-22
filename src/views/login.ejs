@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/assets/styles/style-login.css">
+    <%-include ('parts/page-head', { title:'Iniciar sessão' })%>
+</head>
+<body>
+    <main>
+        <section class="left">
+            <a href="/"><img src="/assets/images/images-login/logo.png" class="logo" alt="logo"></a>
+            <img src="/assets/images/images-login/img-home.svg" class="img-home" alt="img-home">
+            <div class="text">
+                <h1>Pronto para a Nerdlândia? É grátis!</h1>
+            </div>
+        </section>
+        <section class="right">
+            <div class="content">
+                <div class="login"><h1>Login</h1></div>
+                <form id="form">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" />
+                  </div>
+                </form>
+                <div class="footer">
+                    <span>Esqueceu sua senha? Cique <strong>aqui</strong></span>
+                    <button type="submit">Entrar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
