@@ -74,11 +74,17 @@ main {
 }
 
 .left svg {
+    cursor: pointer;
     margin-top: 13vh;
+    height: 3.7vh;
+}
+
+.left .logout svg path{
+    transition: 1s;
 }
 
 .left .logout .a{
-    margin-top: 13.5vh;
+    margin-top: 13vh;
     margin-left: 1vh;
 }
 
@@ -86,6 +92,13 @@ main {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    transition: 1s;
+}
+.left .logout:hover a{
+    color:#FCA26E; 
+}
+.left .logout:hover svg path{
+    stroke:#FCA26E;
 }
 
 .right {

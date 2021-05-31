@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/assets/styles/style-forget.css">
+    <%-include ('parts/page-head', { title:'Nerdlândia - Esqueceu sua senha?' })%>
+</head>
+<body>
+    <main>
+        
+        <section class="right">
+            <div class="logo">
+                <a href="/"><img class="logo"src="./assets/images/images-forget/logo.png" alt=""></a>
+            </div>
+            <div class="content">
+                <div class="text">
+                    <h1>Não se preocupe</h1>
+                    <span>Nós estamos aqui para te ajudar a recuperar sua senha.
+                        Digite o email que você usou para se cadastrar na 
+                        Nerdlândia, nós iremos te enviar instruções para resetar
+                        sua senha.
+                    </span>
+                </div>
+                <form id="form">
+                  <div class="form-group">
+                    <input type="text" id="email" placeholder="Email"/>
+                  </div>
+                <div class="buttons">
+                    <div class="back">
+                        <svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.875 19.25L1.125 10.5L9.875 1.75" stroke="black" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                            
+                        <a href="/login">Voltar</a>
+                    </div>
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </section>
+        <section class="left">
+            <img src="/assets/images/images-forget/crash.png" alt="">
+        </section>
+    </main>
+</body>
+</html>

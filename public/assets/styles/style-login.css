@@ -131,6 +131,10 @@ main {
     color: rgba(54, 70, 113, 0.5);
 }
 
+.footer a{
+    text-decoration: none;
+}
+
 .footer strong {
     color:#4D70D3;
     transition: 1s;

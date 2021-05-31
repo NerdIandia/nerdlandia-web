@@ -67,7 +67,7 @@ main {
     display: flex;
     flex-direction: column;
     padding-left:4vw;
-    padding-top: 5vh;
+    padding-top: 2vh;
 }
 
 .right .up-text h1 {
