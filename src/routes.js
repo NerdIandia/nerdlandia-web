@@ -24,18 +24,21 @@ routes.post("/signup", async (req, res) => {
     cpf: cpf,
     cep: cep,
   };
-  const response = await fetch("http://localhost:3000/users", {
-    method: "post",
-    mode: "cors",
-    headers: new Headers().append(
-      "Content-Type",
-      "application/x-www-form-urlencoded"
-    ),
-    body: user,
-  });
-  return res.json(user);
-});
+  try {
+    await fetch('http://localhost:3000/users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(req.body)
+    });
 
+    return res.redirect("/signup");
+  } catch (error) {
+    console.log(error);
+  }
+  return res.status(200).end();;
+});
 routes.get("/login", (req, res) => res.render(views + "login"));
 routes.get("/forget", (req, res) => res.render(views + "forget"));
 routes.get("/profile", (req, res) =>
