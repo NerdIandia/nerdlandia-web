@@ -17,4 +17,8 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use(routes);
 
+server.use((req, res, next) => {
+    res.render("404")
+})
+
 server.listen(3001, () => console.log('Rodando'));
