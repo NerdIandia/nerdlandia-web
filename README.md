@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-    <img src="https://github.com/danielusi/nerdlandia/blob/main/assets/images/images-readme/slogan.png" width="900" heigh="150" alt="logo Nerdlândia">
+    <img src="https://github.com/NerdIandia/nerdlandia-web/blob/main/public/assets/images/images-readme/slogan.png?raw=true" width="900" heigh="150" alt="logo Nerdlândia">
 </h1>
 <p align="center">
     <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=PC&color=294D38&labelColor=567DF0">
