@@ -1,6 +1,3 @@
-
-# Nerdlândia
-
 <h1 align="center">
   <br>
     <img src="https://github.com/NerdIandia/nerdlandia-web/blob/main/public/assets/images/images-readme/slogan.png?raw=true" width="900" heigh="150" alt="logo Nerdlândia">
@@ -18,7 +15,7 @@ A Nerdlândia surgiu com o intuito de ajudar as pessoas de baixa renda a obter s
 #### Funcionalidades
 * Sign Up/Login.
 * Alteração de dados.
-* Delete de dados.
+* Deletar dados.
 
 ## Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -39,22 +36,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
      <img src="https://github.com/NerdIandia/nerdlandia-web/blob/main/public/assets/images/images-readme/forget.png?raw=true" width="400px">
  </div>
 
-## Rodando o projeto
 
 ```bash
 
 # Clone o repositório
-$ git clone https://github.com/danielusi/maratona-discover.git
+$ git clone https://github.com/NerdIandia/nerdlandia-web.git
 
-# Acesse a pasta do projeto no prompt de comando
-$ cd maratona-discover
-
-# Abra o projeto com o navegador de sua preferência
-$ index.html
 ```
+### Installing the packages
 
-## Contato 
+- Inside the project folder, run the following command: `npm i`
 
-[![https://www.linkedin.com/in/danielbenicio/](https://img.shields.io/badge/-Daniel%20Benicio-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/danielbenicio/)
-
-[![mailto:danielbenicio123@gmail.com](https://img.shields.io/badge/danielbenicio123@gmail.com-D14836?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:danielbenicio123@gmail.com)
+## Now just run the project
