@@ -46,6 +46,7 @@ body {
     margin-top:1vh;
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 .header .nav-bar .logo {
@@ -61,7 +62,6 @@ body {
 .header .nav-bar .nav-menus .twitter {
     height: 19px;
     margin-top:1.8vh;
-    margin-left: 2vw;
     cursor: pointer;
 }
 
@@ -71,6 +71,7 @@ body {
 }
 
 .header .nav-bar .nav-menus .facebook {
+    margin-right: 3vw;
     height: 19px;
     margin-top:1.8vh;
     cursor: pointer;
@@ -117,6 +118,28 @@ body {
 
 .header .nav-bar .nav-menus .up:hover{
     background:#4DCDFA;
+}
+
+.header .nav-bar .nav-menus .perfil-img{
+    height: 42px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.menu:hover span{
+    color: #ECA521;
+}
+
+.menu span {
+    transition: 1s;
+    color: white;
+    font-weight: 500;
 }
 
 .images {
@@ -332,7 +355,7 @@ body {
     margin-right:100px;
 }
 
-}.info img::selection{
+.info img::selection{
     background:none;
 }
 
@@ -373,6 +396,10 @@ body {
     box-shadow: 0px 4px 4px 0px #00000040;
 
     color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     font-weight: bold;
     transition: 1s;
     font-size: 11px;

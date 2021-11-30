@@ -88,13 +88,17 @@ main {
     margin-left: 1vh;
 }
 
-.left .logout .a  a{
+.left .logout .a  button{
     color: #fff;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
     text-decoration: none;
     font-weight: 600;
     transition: 1s;
 }
-.left .logout:hover a{
+.left .logout:hover button{
     color:#FCA26E; 
 }
 .left .logout:hover svg path{
@@ -127,7 +131,7 @@ main {
 }
 
 .content{
-    margin-top: 2vh;
+    margin-top: 4vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -139,6 +143,34 @@ main {
     font-weight: 600;
     margin-top: 1vh;
     margin-bottom: 3vh;
+}
+
+.name-group{
+    width: 39vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.name-group .form-group {
+    width: calc(38vw / 2);
+}
+
+.name-group  .form-group input{
+    width: 100%;
+}
+
+.endereco-group{
+    width: 39vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.endereco-group .form-group {
+    width: calc(38vw / 2);
+}
+
+.endereco-group  .form-group input{
+    width: 100%;
 }
 
 .form-group {

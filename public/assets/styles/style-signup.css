@@ -112,6 +112,34 @@ main {
     padding-left:7vw;
 }
 
+.name-group{
+    width: 45vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.name-group .form-group {
+    width: calc(50vw / 2);
+}
+
+.name-group  .form-group input{
+    width: 100%;
+}
+
+.endereco-group{
+    width: 45vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.endereco-group .form-group {
+    width: calc(50vw / 2);
+}
+
+.endereco-group  .form-group input{
+    width: 100%;
+}
+
 .form-group label {
     font-weight:500;
     font-size: 11.8px;
