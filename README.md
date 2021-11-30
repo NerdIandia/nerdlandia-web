@@ -4,7 +4,7 @@
 </h1>
 <p align="center">
     <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=PC&color=294D38&labelColor=567DF0">
-    <a href="https://github.com/danielusi/maratona-discover/blob/main/LICENSE">
+    <a href="https://github.com/NerdIandia/nerdlandia-web/blob/main/LICENSE">
         <img alt="Licença" src="https://img.shields.io/static/v1?label=License&message=MIT&color=294D38&labelColor=567DF0">
     </a>
 </p>
